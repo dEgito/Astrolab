@@ -1,4 +1,6 @@
+import Background from "../../assets/bg.png";
 import styled from "styled-components";
+
 
 export const Container = styled.div`
   display: flex;
@@ -13,7 +15,8 @@ export const Container = styled.div`
 
   color: #ffffff;
   font-family: Inter;
-  background-color: #000000;
+  background: url(${Background}) repeat;
+  background-color: #000;
 
   header {
     display: flex;
