@@ -1,8 +1,9 @@
-import { Container } from "./style";
+import { Container, Image, Buttons } from "./style";
 import Primary from "../../components/PrimaryButton";
 import Secundary from "../../components/SecundaryButton";
 import Logo from "../../assets/logo.png";
 import Planet from "../../assets/planet-icon.png";
+
 
 function Home() {
   return (
@@ -12,12 +13,12 @@ function Home() {
         <img src={Logo} />
       </header>
 
-      <img src={Planet} />
+      <Image src={Planet}/>
 
-      <div>
+      <Buttons>
         <Primary>Login</Primary>
         <Secundary>Cadastro</Secundary>
-      </div>
+      </Buttons>
     </Container>
   );
 }
