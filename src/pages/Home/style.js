@@ -30,6 +30,25 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+  }
+
+  span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+  }
+
+  a {
+    color: #FFC700;
+  }
 `;
 
 export const Image = styled.img`
