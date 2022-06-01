@@ -1,7 +1,7 @@
 # Astrolab
 
 Repositório para desenvolver o sistema de cadastro do QuizGame 'Astrolab'.
-Baseado no Daily UI Challenge #1 (https://www.figma.com/file/M5rY5YU9ehupFuBjzm6jEF/DailyUI-001?node-id=0%3A1)  
+Baseado no Daily UI Challenge #1 <a href="https://www.figma.com/file/M5rY5YU9ehupFuBjzm6jEF/DailyUI-001?node-id=0%3A1">Astrolab</a>
 
 ---
 
