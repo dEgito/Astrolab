@@ -1,4 +1,4 @@
-import { Teste, Container, Image, Buttons } from "./style";
+import { Container, Image, Buttons } from "./style";
 import Primary from "../../components/PrimaryButton";
 import Secundary from "../../components/SecundaryButton";
 import Logo from "../../assets/logo.png";
