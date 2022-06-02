@@ -5,6 +5,7 @@ import Input from "../../components/Input";
 
 import { Container, Contents, Buttons } from "./style";
 import Google from "../../assets/google-icon.png";
+import FloatButton from "../../components/FloatButton";
 
 function Login() {
   return (
@@ -14,7 +15,7 @@ function Login() {
       <Contents>
         <Primary type="google">
           <span>
-            <img src={Google} />
+            <img src={Google} alt="icone-google"/>
           </span>
           Entrar com Google
         </Primary>
@@ -30,6 +31,8 @@ function Login() {
           <Primary>Login</Primary>
           <Secundary>Criar conta</Secundary>
         </Buttons>
+
+        <FloatButton />
       </Contents>
     </Container>
   );
