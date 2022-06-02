@@ -2,12 +2,12 @@ import Primary from "../../components/PrimaryButton";
 import Secundary from "../../components/SecundaryButton";
 
 import Header from "../../components/Header";
-import { Contents, Buttons } from "./style";
+import { Container, Contents, Buttons } from "./style";
 import Input from "../../components/Input";
 
 function Login() {
   return (
-    <>
+    <Container>
       <Header />
 
       <Contents>
@@ -27,7 +27,7 @@ function Login() {
           <Secundary>Criar conta</Secundary>
         </Buttons>
       </Contents>
-    </>
+    </Container>
   );
 }
 
