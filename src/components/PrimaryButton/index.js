@@ -1,8 +1,8 @@
 import Button from "./style";
 
-function Primary ({children}){
+function Primary ({type, children}){
     return (
-        <Button>{children}</Button>
+        <Button type={type}>{children}</Button>
     )
 }
 
