@@ -37,4 +37,5 @@ export const Buttons = styled.div`
   align-items: center;
   gap: 0.5rem;
   padding: 1.5rem;
+  width: 80%;
 `;

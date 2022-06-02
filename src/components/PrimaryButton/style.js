@@ -10,7 +10,8 @@ const Button = styled.button`
   font-weight: 600;
   color: #000000;
   text-decoration: none;
-  width: 220px;
+  width: 100%;
+  max-width: 16rem;
   padding: 0.8rem;
   border: none;
   border-radius: 30px;
