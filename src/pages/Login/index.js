@@ -1,9 +1,9 @@
 import Primary from "../../components/PrimaryButton";
 import Secundary from "../../components/SecundaryButton";
-
 import Header from "../../components/Header";
-import { Container, Contents, Buttons } from "./style";
 import Input from "../../components/Input";
+
+import { Container, Contents, Buttons } from "./style";
 import Google from "../../assets/google-icon.png";
 
 function Login() {
