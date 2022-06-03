@@ -1,7 +1,6 @@
 import Background from "../../assets/bg.png";
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -43,11 +42,11 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   a {
-    color: #FFC700;
+    color: #ffc700;
   }
 `;
 
@@ -76,4 +75,5 @@ export const Buttons = styled.div`
   align-items: center;
   gap: 0.5rem;
   padding: 1.5rem;
+  width: 80%;
 `;
