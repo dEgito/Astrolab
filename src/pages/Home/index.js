@@ -4,6 +4,7 @@ import Secundary from "../../components/SecundaryButton";
 import Logo from "../../assets/logo.png";
 import Planet from "../../assets/planet-icon.png";
 import Coffee from "../../assets/Coffee.svg";
+import Icon from "../../components/PlanetIcon";
 
 function Home() {
   return (
@@ -13,8 +14,9 @@ function Home() {
         <img src={Logo} alt="astrolab-logo"/>
       </header>
 
-      <Image src={Planet} alt="planeta"/>
+      {/* <Image src={Planet} alt="planeta"/> */}
 
+      <Icon />
       <Buttons>
         <Primary>Login</Primary>
         <Secundary>Cadastro</Secundary>
