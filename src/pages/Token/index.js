@@ -18,7 +18,7 @@ function Token() {
         </a>
 
         <footer>
-          <a href="https://github.com/dEgito" target="_blank">
+          <a href="https://github.com/dEgito/Astrolab" target="_blank">
             <img src={Logo} alt="logo-astrolab" />
           </a>
         </footer>
