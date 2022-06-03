@@ -1,7 +1,7 @@
 import { TextInput } from "./style";
 
-function Input({ placeholder }) {
-  return <TextInput placeholder={placeholder} />;
+function Input({ type, placeholder }) {
+  return <TextInput type={type} placeholder={placeholder} />;
 }
 
 export default Input;

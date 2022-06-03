@@ -12,7 +12,7 @@ function Token() {
 
       <Contents>
         <p>Digite o código de ativação:</p>
-        <Input placeholder="000 000" />
+        <Input type="token" placeholder="000 000" />
         <a>
           Não recebeu? <span>Reenviar</span>
         </a>
