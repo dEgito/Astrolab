@@ -17,17 +17,21 @@ export const Container = styled.body`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    padding: 2rem 1rem;
+    gap: 0.8rem;
+    padding: 2rem 1rem 1rem;
 
     color: #ffffff;
 
     h2 {
       margin: 0;
+      font-size: 1.2rem;
+      font-weight: 600;
     }
 
     p {
       margin: 0;
+      font-size: 0.8rem;
+      color: #ffc700;
     }
   }
 `;
@@ -45,4 +49,23 @@ export const Contents = styled.div`
   background: url(${Background}) repeat;
   background-color: #000;
   border-radius: 30px 30px 0 0;
+
+  span {
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: #ffc700;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  footer {
+      position: absolute;
+      bottom: 4rem;
+
+      img {
+          width: 8rem;
+      }
+  }
 `;
