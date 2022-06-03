@@ -5,7 +5,7 @@ import Token from "./pages/Token";
 
 function App() {
   return (
-    <Token />
+    <Home />
   );
 }
 
