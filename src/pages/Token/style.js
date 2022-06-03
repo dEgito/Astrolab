@@ -50,14 +50,23 @@ export const Contents = styled.div`
   background-color: #000;
   border-radius: 30px 30px 0 0;
 
+  a {
+      font-size: .8rem;
+      margin-bottom: 4rem;
+
+      &:hover {
+          cursor: pointer;
+
+          span {
+            color: #ffc700;
+            transition: all 0.2s ease-in-out;
+          }
+      }
+  }
+
   span {
     font-weight: 600;
     transition: all 0.2s ease-in-out;
-
-    &:hover {
-      color: #ffc700;
-      transition: all 0.2s ease-in-out;
-    }
   }
 
   footer {
