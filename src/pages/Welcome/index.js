@@ -3,6 +3,7 @@ import Primary from "../../components/PrimaryButton";
 
 import Planet from "../../assets/polygon-planet.png";
 import { Container, Image } from "./style";
+import Icon from "./components/PlanetIcon";
 
 function Welcome() {
   return (
@@ -17,7 +18,8 @@ function Welcome() {
           </p>
         </div>
 
-        <Image src={Planet} />
+        {/* <Image src={Planet} /> */}
+        <Icon />
         <Primary>Jogar</Primary>
         <Footer />
       </Container>
