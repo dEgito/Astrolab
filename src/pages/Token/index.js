@@ -1,5 +1,6 @@
 import Input from "../../components/Input";
-import Logo from "../../assets/logo.png";
+import Footer from "../../components/Footer";
+
 import { Container, Contents, Header } from "./style";
 
 function Token() {
@@ -17,11 +18,7 @@ function Token() {
           Não recebeu? <span>Reenviar</span>
         </a>
 
-        <footer>
-          <a href="https://github.com/dEgito/Astrolab" target="_blank">
-            <img src={Logo} alt="logo-astrolab" />
-          </a>
-        </footer>
+        <Footer />
       </Contents>
     </Container>
   );
