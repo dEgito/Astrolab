@@ -5,7 +5,7 @@ import Header from "../../components/Header";
 import Planet from "../../assets/polygon-planet.png";
 import FloatButton from "../../components/FloatButton"
 import { Container, Contents, Image } from "./style";
-import Icon from "./components/PlanetIcon";
+import Icon from "../../components/PlanetIcon";
 
 function Welcome() {
   return (
