@@ -68,13 +68,4 @@ export const Contents = styled.div`
     font-weight: 600;
     transition: all 0.2s ease-in-out;
   }
-
-  footer {
-      position: absolute;
-      bottom: 4rem;
-
-      img {
-          width: 8rem;
-      }
-  }
 `;
