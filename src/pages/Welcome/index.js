@@ -1,10 +1,8 @@
-import Footer from "../../components/Footer";
 import Primary from "../../components/PrimaryButton";
 import Header from "../../components/Header";
 
-import Planet from "../../assets/polygon-planet.png";
 import FloatButton from "../../components/FloatButton"
-import { Container, Contents, Image } from "./style";
+import { Container, Contents } from "./style";
 import Icon from "../../components/PlanetIcon";
 
 function Welcome() {
@@ -22,8 +20,7 @@ function Welcome() {
               <span>Tripulante</span>!
             </p>
           </div>
-
-          {/* <Image src={Planet} /> */}
+          
           <Icon />
           <Primary>Jogar</Primary>
           <FloatButton />
