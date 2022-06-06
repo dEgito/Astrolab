@@ -44,15 +44,3 @@ export const Contents = styled.div`
     font-weight: 600;
   }
 `;
-
-export const Image = styled.img`
-  animation: loading 10s linear infinite;
-  @keyframes loading {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-`;
