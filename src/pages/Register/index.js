@@ -3,7 +3,7 @@ import Secundary from "../../components/SecundaryButton";
 import Input from "../../components/Input";
 import Header from "../../components/Header";
 import FloatButton from "../../components/FloatButton";
-import Google from "../../assets/google-icon.png"
+import Google from "../../assets/images/google-icon.png"
 import { Container, Contents, Buttons } from "./style";
 
 import { useForm } from 'react-hook-form';

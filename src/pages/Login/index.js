@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import Input from "../../components/Input";
 
 import { Container, Contents, Buttons } from "./style";
-import Google from "../../assets/google-icon.png";
+import Google from "../../assets/images/google-icon.png";
 import FloatButton from "../../components/FloatButton";
 
 function Login() {

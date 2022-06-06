@@ -1,5 +1,5 @@
 import { Button } from "./style";
-import Github from "../../assets/github-icon.svg";
+import Github from "../../assets/images/github-icon.svg";
 
 function FloatButton({ children }) {
   return (
