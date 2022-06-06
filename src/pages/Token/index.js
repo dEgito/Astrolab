@@ -1,7 +1,7 @@
 import Input from "../../components/Input";
 import Footer from "../../components/Footer";
 
-import { Container, Contents, Header } from "./style";
+import { Container, Contents } from "./style";
 
 function Token() {
   return (
