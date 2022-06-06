@@ -1,4 +1,4 @@
-import Background from "../../assets/bg.png";
+import Background from "../../assets/images/bg.png";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -47,25 +47,6 @@ export const Container = styled.div`
 
   a {
     color: #ffc700;
-  }
-`;
-
-export const Image = styled.img`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 12rem;
-  min-width: 8rem;
-  margin: 3rem;
-
-  animation: loading 10s linear infinite;
-  @keyframes loading {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(360deg);
-    }
   }
 `;
 

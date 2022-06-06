@@ -1,9 +1,8 @@
-import { Container, Image, Buttons } from "./style";
+import { Container, Buttons } from "./style";
 import Primary from "../../components/PrimaryButton";
 import Secundary from "../../components/SecundaryButton";
-import Logo from "../../assets/logo.png";
-import Planet from "../../assets/planet-icon.png";
-import Coffee from "../../assets/Coffee.svg";
+import Logo from "../../assets/images/logo.png";
+import Coffee from "../../assets/images/Coffee.svg";
 import Icon from "../../components/PlanetIcon";
 
 function Home() {
@@ -13,8 +12,6 @@ function Home() {
         <p>Bem vindo ao</p>
         <img src={Logo} alt="astrolab-logo"/>
       </header>
-
-      {/* <Image src={Planet} alt="planeta"/> */}
 
       <Icon />
       <Buttons>
