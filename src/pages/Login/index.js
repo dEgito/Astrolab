@@ -6,6 +6,7 @@ import Input from "../../components/Input";
 import { Container, Contents, Buttons } from "./style";
 import Google from "../../assets/images/google-icon.png";
 import FloatButton from "../../components/FloatButton";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -15,7 +16,7 @@ function Login() {
       <Contents>
         <Primary type="google">
           <span>
-            <img src={Google} alt="icone-google"/>
+            <img src={Google} alt="icone-google" />
           </span>
           Entrar com Google
         </Primary>
@@ -28,8 +29,13 @@ function Login() {
         </div>
 
         <Buttons>
-          <Primary>Login</Primary>
-          <Secundary>Criar conta</Secundary>
+          <Link to="/">
+            <Primary>Login</Primary>
+          </Link>
+
+          <Link to="/cadastro">
+            <Secundary>Criar conta</Secundary>
+          </Link>
         </Buttons>
 
         <FloatButton />
