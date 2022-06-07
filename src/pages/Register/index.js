@@ -3,17 +3,18 @@ import Secundary from "../../components/SecundaryButton";
 import Input from "../../components/Input";
 import Header from "../../components/Header";
 import FloatButton from "../../components/FloatButton";
-import Google from "../../assets/images/google-icon.png"
+import Google from "../../assets/images/google-icon.png";
 import { Container, Contents, Buttons } from "./style";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
     <Container>
       <Header />
       <Contents>
-      <Primary type="google">
+        <Primary type="google">
           <span>
-            <img src={Google} alt="icone-google"/>
+            <img src={Google} alt="icone-google" />
           </span>
           Entrar com Google
         </Primary>
@@ -27,8 +28,13 @@ function Register() {
         </div>
 
         <Buttons>
-          <Primary type="submit">Cadastrar</Primary>
-          <Secundary>Já tenho conta</Secundary>
+          <Link to="/validacao">
+            <Primary type="submit">Cadastrar</Primary>
+          </Link>
+
+          <Link to="/login">
+            <Secundary>Já tenho conta</Secundary>
+          </Link>
         </Buttons>
 
         <FloatButton />

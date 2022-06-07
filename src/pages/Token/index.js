@@ -1,7 +1,9 @@
 import Input from "../../components/Input";
 import Footer from "../../components/Footer";
+import Primary from "../../components/PrimaryButton";
 
 import { Container, Contents } from "./style";
+import { Link } from "react-router-dom";
 
 function Token() {
   return (
@@ -14,10 +16,16 @@ function Token() {
       <Contents>
         <p>Digite o código de ativação:</p>
         <Input type="token" placeholder="000 000" />
-        <a>
-          Não recebeu? <span>Reenviar</span>
-        </a>
 
+        <Link to="/">
+          <a>
+            Não recebeu? <span>Reenviar</span>
+          </a>
+        </Link>
+
+        <Link to="/welcome">
+          <Primary type="submit">Enviar</Primary>
+        </Link>
         <Footer />
       </Contents>
     </Container>
