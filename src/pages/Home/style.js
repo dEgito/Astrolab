@@ -57,4 +57,8 @@ export const Buttons = styled.div`
   gap: 0.5rem;
   padding: 1.5rem;
   width: 80%;
+
+  a {
+    text-decoration: none;
+  }
 `;
