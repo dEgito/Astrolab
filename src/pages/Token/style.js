@@ -53,6 +53,8 @@ export const Contents = styled.div`
   a {
       font-size: .8rem;
       margin-bottom: 4rem;
+      text-decoration: none;
+      color: #ffffff;
 
       &:hover {
           cursor: pointer;
