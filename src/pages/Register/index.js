@@ -12,12 +12,14 @@ function Register() {
     <Container>
       <Header />
       <Contents>
-        <Primary type="google">
-          <span>
-            <img src={Google} alt="icone-google" />
-          </span>
-          Entrar com Google
-        </Primary>
+        <Link to="/">
+          <Primary type="google">
+            <span>
+              <img src={Google} alt="icone-google" />
+            </span>
+            Entrar com Google
+          </Primary>
+        </Link>
         <p>ou</p>
 
         <div>
@@ -29,7 +31,7 @@ function Register() {
 
         <Buttons>
           <Link to="/validacao">
-            <Primary type="submit">Cadastrar</Primary>
+            <Primary>Cadastrar</Primary>
           </Link>
 
           <Link to="/login">

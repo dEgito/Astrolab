@@ -14,12 +14,14 @@ function Login() {
       <Header />
 
       <Contents>
-        <Primary type="google">
-          <span>
-            <img src={Google} alt="icone-google" />
-          </span>
-          Entrar com Google
-        </Primary>
+        <Link to="/">
+          <Primary type="google">
+            <span>
+              <img src={Google} alt="icone-google" />
+            </span>
+            Entrar com Google
+          </Primary>
+        </Link>
         <p>ou</p>
 
         <div>
