@@ -12,10 +12,10 @@ export const Container = styled.div`
   padding: 0;
   height: 100vh;
 
-  color: #ffffff;
+  color: var(--white);
   font-family: Inter;
   background: url(${Background}) repeat;
-  background-color: #000;
+  background-color: var(--black);
 
   header {
     display: flex;
@@ -46,7 +46,7 @@ export const Container = styled.div`
   }
 
   a {
-    color: #ffc700;
+    color: var(--yellow-500);
   }
 `;
 
