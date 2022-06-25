@@ -8,7 +8,7 @@ export const Container = styled.body`
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #560526;
+  background-color: var(--wine-500);
 `;
 
 export const Contents = styled.div`
@@ -19,10 +19,10 @@ export const Contents = styled.div`
   gap: 1rem;
   width: 100%;
   height: 100%;
-  color: #ffffff;
+  color: var(--white);
   font-family: Inter;
   background: url(${Background}) repeat;
-  background-color: #000;
+  background-color: var(--black);
   border-radius: 30px 30px 0 0;
 
   div {
