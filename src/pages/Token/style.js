@@ -19,6 +19,7 @@ export const Container = styled.body`
     justify-content: center;
     gap: 0.8rem;
     padding: 2rem 1rem 1rem;
+
     color: var(--white);
 
     h2 {

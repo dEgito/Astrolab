@@ -7,6 +7,7 @@ export const Container = styled.body`
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 0;
   background-color: var(--wine-500);
 `;
 
