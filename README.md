@@ -7,7 +7,7 @@ O Astrolab é um projeto desenvolvido com o objetivo de aprimorar as habilidades
 
 Recursos e funcionalidades do Astrolab:
 
-- **Cadastro de Jogadores**: Os usuários podem criar perfis personalizados para participar do jogo de quiz espacial. O sistema de cadastro oferece campos para informações básicas, como nome, idade e preferências.
+- **Cadastro de Jogadores**: Os usuários podem criar perfis personalizados para participar do jogo de quiz espacial. O sistema de cadastro oferece campos para informações básicas.
 
 Este repositório é uma ótima oportunidade para aprender e praticar os fundamentos do React, Styled Components e gerenciamento de estado. Sinta-se à vontade para explorar o código, contribuir com melhorias e personalizar o Astrolab de acordo com suas necessidades e criatividade.
 
